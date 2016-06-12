@@ -1,0 +1,131 @@
+/* CSS for for both login/reg */
+
+#welcome
+{
+	display: block;
+	height: 100px;
+	width: auto;
+	border: solid red 1px;
+	text-align: center;
+}
+
+#reg_form
+{
+	border: solid green 1px;
+	display: block;
+	height: 100px;
+	width: auto;
+	margin: 10px 100px;
+	text-align: center;
+}
+#login_form
+{
+	border: solid green 1px;
+	display: block;
+	height: 100px;
+	width: auto;
+	margin: 10px 100px;
+	text-align: center;
+}
+
+#errors
+{
+	border: solid green 1px;
+	display: block;
+	height: 300px;
+	width: auto;
+	margin: 10px 100px;
+	text-align: center;
+	overflow: auto;
+
+}
+
+/* CSS for index */
+#header
+{
+	display: block;
+	height: 70px;
+	width: auto;
+	border: solid red 1px;
+	text-align: left;
+	border-bottom: solid black 3px;
+}
+#title
+{
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-right: 300px;
+	border: solid green 1px;
+}
+#user
+{
+	display: inline-block;
+	float: center;
+	border: solid green 1px;
+	width: 200px;
+	margin-left: 400px;
+	text-align: center;
+}
+#logout
+{
+	display: inline-block;
+	float: right;
+	border: solid green 1px;
+	width: 70px;
+/*	height: 60px;*/
+	text-align: center;
+	vertical-align: bottom 10px;
+	margin: 10px 30px;
+	padding: 10px 0px;
+}
+/* index post stuff */
+#wall_post
+{
+	border: solid green 1px;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 50px;
+	text-align: center;
+	/*overflow: auto;*/
+}
+
+#post_title
+{
+	text-align: left;
+	margin-left: 100px;	
+}
+.input[type="submit"]
+{
+	float: right;
+	margin-right: 120px;
+	background: blue;
+	color: white;
+}
+.post
+{
+	border: solid green 1px;
+	display: block;
+	height: auto;
+	width: auto;
+	margin: 1px 200px;
+	text-align: left;
+
+	/*overflow: auto;*/
+}
+.posted 
+{
+	text-align: center;
+}
+#reply 
+{
+	
+}
+#reply_input[type="submit"]
+{
+	float: right;
+	margin-right: 120px;
+	background-color: green;
+	color: white;
+}

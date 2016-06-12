@@ -1,0 +1,1358 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hash",
+				"hashed_pw"
+			],
+			[
+				"pw_",
+				"pw_orig"
+			],
+			[
+				"has",
+				"hashed_pw"
+			],
+			[
+				"email",
+				"email_validator"
+			],
+			[
+				"pw",
+				"pw_hash"
+			],
+			[
+				"pw_hash_",
+				"pw_hash_test2"
+			],
+			[
+				"test",
+				"pw_hash_test"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"speci",
+				"specific_id"
+			],
+			[
+				"tem",
+				"render_template"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"b",
+				"birthdate"
+			],
+			[
+				"pass",
+				"confirm_password"
+			],
+			[
+				"las",
+				"last_name"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"the",
+				"theLocation"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"acti",
+				"activity_log"
+			],
+			[
+				"ac",
+				"activity_log"
+			],
+			[
+				"add",
+				"add_gold"
+			],
+			[
+				"rec",
+				"recur_fact"
+			],
+			[
+				"cv",
+				"csv_file"
+			],
+			[
+				"m",
+				"my_array"
+			],
+			[
+				"ran",
+				"random"
+			],
+			[
+				"l",
+				"loop"
+			],
+			[
+				"data",
+				"data_session"
+			],
+			[
+				"sqare",
+				"squareVal"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"session_",
+				"session_destroy"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"my",
+				"myguess"
+			],
+			[
+				"answe",
+				"answer_background"
+			],
+			[
+				"answer",
+				"answer_width"
+			],
+			[
+				"met",
+				"META	Tag"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"top",
+				"topinput"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"left",
+				"margin-left"
+			],
+			[
+				"input",
+				"input_box"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"full",
+				"full_name"
+			],
+			[
+				"user",
+				"User"
+			],
+			[
+				"number",
+				"number_of_values"
+			],
+			[
+				"str_rep",
+				"str_replace"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"guest",
+				"guest_number"
+			],
+			[
+				"party",
+				"party_message"
+			],
+			[
+				"mu",
+				"multiple_users"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"php",
+				"php"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "the.wall.process.php",
+			"settings":
+			{
+				"buffer_size": 3344,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "the.wall.index.php",
+			"settings":
+			{
+				"buffer_size": 1669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "the.wall.login-reg.php",
+			"settings":
+			{
+				"buffer_size": 1775,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "the.wall.post.process.php",
+			"settings":
+			{
+				"buffer_size": 3109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mysql.connection.php",
+			"settings":
+			{
+				"buffer_size": 1935,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "the.wall.css",
+			"settings":
+			{
+				"buffer_size": 1774,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "the.wall.logout.php",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sql_queries.sql",
+			"settings":
+			{
+				"buffer_size": 1287,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"pyb",
+				"Snippet: pybang"
+			],
+			[
+				"html",
+				"Snippet: htmltemplate"
+			],
+			[
+				"gist",
+				"Gist: Create Public Gist"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"css",
+				"Snippet: csstemplate"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git commit",
+				"Git: Quick Commit"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git log ",
+				"Git: Log Current File"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git quick",
+				"Git: Quick Commit"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"py",
+				"Snippet: pybang"
+			],
+			[
+				"snipp",
+				"Snippet: jshtml-template"
+			],
+			[
+				"prettif",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"github public ",
+				"GitHub: Public Gist from Selection"
+			],
+			[
+				"github public",
+				"GitHub: Public Gist from Selection"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Package Control: Add Repository"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"jsh",
+				"Snippet: jshtml-template"
+			],
+			[
+				"snipppe",
+				"Snippet: htmltemplate"
+			],
+			[
+				"php",
+				"Snippet: htmltemplate"
+			],
+			[
+				"htmlt",
+				"Snippet: htmltemplate"
+			],
+			[
+				"Snippet: html",
+				"Snippet: htmltemplate"
+			],
+			[
+				"toggle hex",
+				"Hex Viewer: Toggle Hex View"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 123.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/person/CodingDojo/Python/MySQL-Flask/bcrypt/bcrypt_notes.py",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/login_registration/mysqlconnection.py",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/login_registration/static/css/my.css",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/login_registration/templates/home.html",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/login_registration/templates/index.html",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/login_registration/server.py",
+		"/Users/person/Downloads/c25kcalsburned.xls",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/basic_encryption/md5_encryption_and_Salt_examples.py",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/full_friends/server.py",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/full_friends/templates/index.html",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/full_friends/templates/update.html",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/email_validation/server.py",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/email_validation/templates/index.html",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/basic_encryption/md5.example",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/email_validation/templates/success.html",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/email_validation/static/css/my.css",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/email_validation/mysqlconnection.py",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/db_communication/templates/dynamic.html",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/db_communication/server.py",
+		"/Users/person/CodingDojo/Python/MySQL-Flask/db_communication/templates/db_communication.html",
+		"/Users/person/CodingDojo/Python/Flask/registration_form/static/css/my.css",
+		"/Users/person/CodingDojo/Python/Flask/dojo_survey_with_validations/server.py",
+		"/Users/person/CodingDojo/Python/Flask/dojo_survey_with_validations/templates/index.html",
+		"/Users/person/CodingDojo/Python/Flask/dojo_survey_with_validations/templates/results.html",
+		"/Users/person/CodingDojo/Python/Flask/form_validation/server.py",
+		"/Users/person/CodingDojo/Python/Flask/form_validation/templates/index.html",
+		"/Users/person/CodingDojo/Python/Vishnu_Github/DojoAssignments/Flask-NinjaGold/.pwd",
+		"/Users/person/CodingDojo/Python/Flask/registration_form/static/css/validation.css",
+		"/Users/person/CodingDojo/Python/Flask/form_validation/static/css/validation.css",
+		"/Users/person/CodingDojo/Python/Flask/ninja_gold/server.py",
+		"/Users/person/CodingDojo/Python/Flask/ninja_gold/templates/index.html",
+		"/Users/person/CodingDojo/Python/Flask/ninja_gold/static/css/ninja.css",
+		"/Users/person/CodingDojo/Python/Flask/great_number_game/server.py",
+		"/Users/person/CodingDojo/Python/Flask/great_number_game/templates/index.html",
+		"/Users/person/CodingDojo/Python/Flask/great_number_game/static/css/numbergame.css",
+		"/Users/person/CodingDojo/Python/Flask/Sessions/server.py",
+		"/Users/person/CodingDojo/Python/Flask/Sessions/templates/user.html",
+		"/Users/person/CodingDojo/Python/Flask/Dustins_Number/number_game/server.py",
+		"/Users/person/CodingDojo/Python/Flask/Dustins_Number/number_game/templates/index.html",
+		"/Users/person/CodingDojo/Python/Flask/Sessions/static/css/numbergame.css",
+		"/Users/person/CodingDojo/Python/Flask/Sessions/templates/index.html",
+		"/Users/person/CodingDojo/WF/CSS/PPC/PPC.html",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/great.number.game.",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/person/CodingDojo/Python/Algos/swapping_values.py",
+		"/Users/person/CodingDojo/Python/Algos/swap_0_for_negatives.py",
+		"/Users/person/CodingDojo/Python/Algos/square_values.py",
+		"/Users/person/CodingDojo/Python/Algos/greater_than_y.py",
+		"/Users/person/CodingDojo/Python/Algos/array_of_odds.py",
+		"/Users/person/CodingDojo/Python/Algos/COMMIT_EDITMSG.COMMIT_EDITMSG",
+		"/Users/person/CodingDojo/Python/Algos/sum_odds_to_1000.py",
+		"/Users/person/CodingDojo/Python/Algos/max_min_avg.py",
+		"/Users/person/CodingDojo/Python/Algos/shift_values.py",
+		"/Users/person/CodingDojo/Python/Algos/number_to_string.py",
+		"/Users/person/CodingDojo/Python/Algos/random_array.py",
+		"/Users/person/CodingDojo/Python/Algos/find_average.py",
+		"/Users/person/CodingDojo/Python/Algos/find_max.py",
+		"/Users/person/CodingDojo/Python/Algos/loop_through_array.py",
+		"/Users/person/CodingDojo/Python/Algos/sum_odds_to_5000.py",
+		"/Users/person/CodingDojo/Python/Algos/1-255.py",
+		"/Users/person/CodingDojo/Python/Algos/odds_to_1000.py",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/User/odds_to_1000.py",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/person/CodingDojo/JS/testing.javascript.notes",
+		"/Users/person/CodingDojo/Python/Flask/great_number_game/templates/test.html",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/person/CodingDojo/Python/Flask/counter_project/templates/index.html",
+		"/Users/person/CodingDojo/Python/Flask/dojo_survey/templates/index.html",
+		"/Users/person/CodingDojo/Python/Flask/dojo_survey/templates/results.html",
+		"/Users/person/CodingDojo/Python/Flask/landing_page/server.py",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/reat.number.game.php",
+		"/Users/person/CodingDojo/Python/Flask/landing_page/templates/dojos.html",
+		"/Users/person/CodingDojo/Python/Flask/templates_lesson/server.py",
+		"/Users/person/CodingDojo/Python/Flask/landing_page/templates/index2.html",
+		"/Users/person/CodingDojo/Python/Flask/landing_page/templates/index.html",
+		"/Users/person/CodingDojo/Python/Flask/landing_page/templates/ninjas.html",
+		"/Users/person/CodingDojo/Python/Flask/templates_lesson/templates/index.html",
+		"/Users/person/CodingDojo/Python/Flask/templates_lesson/static/css/my_stylesheet.css",
+		"/Users/person/CodingDojo/Python/Flask/flask_hello/hello2.py",
+		"/Users/person/CodingDojo/Python/Flask/flask_hello/hello.py",
+		"/Users/person/CodingDojo/Python/Flask/flask_hello/hello1.py",
+		"/Users/person/CodingDojo/Python/Flask/flask_hello/hello_test.py",
+		"/Users/person/CodingDojo/Python/Flask/templates_lesson/templates/test.html",
+		"/Users/person/CodingDojo/Python/Flask/templates_lesson/static/my_stylesheet.css",
+		"/Users/person/CodingDojo/Python/Flask/templates_lesson/index.html",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/User/jshtml-template.sublime-snippet",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/User/jshtmltemplate.sublime-snippet",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/User/htmltemplate.sublime-snippet",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/User/jshtml-template.sublime.snippet",
+		"/Users/person/CodingDojo/Python/Flask/flask_hello/venv/lib/python2.7/site-packages/flask/testsuite/templates/simple_template.html",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/User/pybang.sublime-snippet",
+		"/Users/person/Library/Application Support/Sublime Text 2/Packages/User/phptemplate.sublime.snippet.html",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/9 - Book Reviews/www/application/views/access/index.php",
+		"/Users/person/CodingDojo/LAMP/algos",
+		"/Users/person/CodingDojo/LAMP/algo.challenge.list.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/Dashboard/Sample1/application/views/user_edit.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/8 - user dashboard/Sample1/video/video_password.txt",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/8 - user dashboard/Sample1/video/video_link.txt",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/Login.and.Reg/8 - Login and Registration/application/config/database.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/Login.and.Reg/8 - Login and Registration/application/config/routes.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/Login.and.Reg/8 - Login and Registration/application/models/user_model.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/Login.and.Reg/8 - Login and Registration/application/views/user_profile.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/Login.and.Reg/8 - Login and Registration/application/views/user_login.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/Login.and.Reg/8 - Login and Registration/application/controllers/login.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/ninja_gold/4 - ninja gold game (codeigniter version)/assets/css/style.css",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/ninja_gold/4 - ninja gold game (codeigniter version)/application/views/home.php",
+		"/Users/person/CodingDojo/LAMP/MVC-PHP/ninja_gold/4 - ninja gold game (codeigniter version)/application/controllers/home.php",
+		"/Users/person/Desktop/VMShare/MYSAVE.SAV.hex",
+		"/Users/person/Desktop/VMShare/MYSAVE.SAV",
+		"/Users/person/Desktop/VMShare/ABE1000B.SAV",
+		"/Users/person/CodingDojo/JavaScript-Tester.html",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/email.validation.with.db.css",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/email.validation.with.db.index.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/email.validation.with.db.process.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/email.validation.with.db.success.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/untitled",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/ninja.gold.process.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/ninja.gold.index.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/great.number.game.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/great.number.game.guess.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/great.number.game.reset.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/process.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/index.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/temp_functions",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/headers.index.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/headers.process.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Fundamentals/php.testing.php",
+		"/Users/person/CodingDojo/LAMP/PHP/Advanced/mysql.connection.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"ninja.gold.index.php",
+			"multiplication.php",
+			"php.testing.php",
+			"loops.php"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"avidiva",
+			"amanaplanacanalpanama",
+			"UPPERCASE",
+			"EMAIL",
+			"num.",
+			"NUM",
+			"data ",
+			"data",
+			"friends",
+			"dynamic",
+			"jpg",
+			"png",
+			"date",
+			"green",
+			"Working",
+			"random",
+			"Index",
+			"flashdata",
+			"info",
+			"$this->user_session",
+			"user_session",
+			"base",
+			"0",
+			"swap",
+			"	\n",
+			"errors",
+			"conn",
+			"errors",
+			"result",
+			"great.number.game.guess",
+			"mynumber",
+			"myguess",
+			"yourguess",
+			"sum",
+			"<form action='process.php' method='post'>\n	    Your Name <input type='text' name='first_name'>\n	    Dojo Location <input type='text' name='last_name'>\n	    Favorite Language <input type='text' name='email'>\n	    <input type='submit' value='add user!'>\n	</form>",
+			"isset",
+			"$j",
+			"$i",
+			"body",
+			"item",
+			"students",
+			"multiple_users"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ninja.gold.process",
+			"$col",
+			"$row",
+			"nums",
+			"students"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "the.wall.process.php",
+					"settings":
+					{
+						"buffer_size": 3344,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "the.wall.index.php",
+					"settings":
+					{
+						"buffer_size": 1669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "the.wall.login-reg.php",
+					"settings":
+					{
+						"buffer_size": 1775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "the.wall.post.process.php",
+					"settings":
+					{
+						"buffer_size": 3109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 8.0,
+						"translation.y": 799.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "mysql.connection.php",
+					"settings":
+					{
+						"buffer_size": 1935,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								385,
+								385
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "the.wall.css",
+					"settings":
+					{
+						"buffer_size": 1774,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "the.wall.logout.php",
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "sql_queries.sql",
+					"settings":
+					{
+						"buffer_size": 1287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/SQL/SQL.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 154.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"htmltemplate",
+				"flask_hello/venv/lib/python2.7/site-packages/flask/testsuite/templates/simple_template.html"
+			],
+			[
+				"",
+				"loops.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 197.0,
+	"status_bar_visible": true
+}
