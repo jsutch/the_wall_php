@@ -59,6 +59,7 @@
 		if(!empty($_SESSION['errors'])){
 			header('Location: the.wall.login-reg.php');
 		} else {
+			// proceed with user creation
 			$first_name = escape_this_string($post_info['first_name']);
 			$last_name = escape_this_string($post_info['last_name']);
 			$email = escape_this_string($post_info['email']);
@@ -88,18 +89,41 @@
 		// temp test
 		// var_dump($post_info);
 		// die();
+		$messages = [];
 		$email = escape_this_string($post_info['email']);
 		$password = escape_this_string($post_info['password']);
-		// $query = "SELECT * from users WHERE email = '{$email}' AND password = '{$password}'";
-		$query = "SELECT * from users WHERE email = '{$email}'";
-
-
-		$user = fetch_record($query);
+		$user_query = "SELECT * from users WHERE email = '{$email}'";
+		$user = fetch_record($user_query);
 		if($user && (crypt($password, $user['password']) == $user['password'])){
 			// do stuff
 			$_SESSION['user_id'] = $user['id'];
-
+			$message_query="SELECT m.id, concat(u.first_name, ' ', u.last_name) as name, m.message, date_format(m.updated_at, '%M %D %Y'), m.updated_at as mdate FROM users u, messages m WHERE u.id = m.user_id ORDER BY m.updated_at DESC;";
+			$messages = fetch_record($message_query);
+			// Redirect to the.wall.index
 			header('Location: the.wall.index.php');
+		}
+	}
+
+	function post_message($post_info) {
+//
+	// var_dump($post_info);
+	// die();
+	// $message = $_POST['formMessage'];
+	// var_dump($_SESSION['user_id']);
+	if(empty($post_info['formMessage'])){
+		return_error("Message can't be empty");
+	}
+	$user_id = $_SESSION['user_id'];
+	$message = $post_info['formMessage'];
+	$query = "INSERT INTO messages (user_id, message, created_at, updated_at) VALUES ('{$user_id}', '{$message}', NOW(), NOW())";
+	//
+		// echo $query;
+		if(isset($_SESSION['user_id'])){
+			$post_id = run_mysql_query($query);
+			$_SESSION['post_id'] = $post_id;
+		// 
+		// TOGGLE ON/OFF
+		header('Location: the.wall.index.php');
 		}
 	}
 

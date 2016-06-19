@@ -118,10 +118,26 @@
 {
 	text-align: center;
 }
-#reply 
+.comments_div
 {
-	
+	border: solid purple 1px;
+	display: block;
+	height: auto;
+	width: auto;
+	text-align: center;
+	margin: 5px 150px;
 }
+.comments
+{
+	border: solid purple 1px;
+	display: block;
+	height: auto;
+	width: auto;
+	text-align: center;
+	margin: 5px 150px;
+}
+
+
 #reply_input[type="submit"]
 {
 	float: right;
