@@ -11,12 +11,15 @@
 	// SQL working
 	require_once('mysql.connection.php');
 
+	// Global Functions
 	// Working
 	function extract_numbers($string)
 		{
 			preg_match_all('/([\d]+)/', $string, $match);
 			 array_push($numbers_in_name, "$match[0]");
 		}
+
+	// Begin process logic
 	// Validate and Route POSTs to correct functions
 	if(empty($_POST['origin']))
 		{
@@ -131,7 +134,7 @@
 		} else {
 			// Do message stuff
 			//$message = $_POST['formMessage'];
-			$message = $post_info['formMessage'];
+			$message = escape_this_string($post_info['formMessage']);
 			$user_id = $_SESSION['user_id'];
 			$query = "INSERT INTO messages (user_id, message, created_at, updated_at) VALUES ('{$user_id}', '{$message}', NOW(), NOW())";
 			if(isset($_SESSION['user_id'])){
@@ -153,7 +156,7 @@
 		}
 		$user_id = $_SESSION['user_id'];
 		$message_id = $post_info['message_id'];
-		$comment = $post_info['formComment'];
+		$comment =  escape_this_string($post_info['formComment']);
 		$query = "INSERT INTO comments (user_id, comment, message_id, created_at, updated_at) VALUES ('{$user_id}', '{$comment}', '{$message_id}', NOW(), NOW());";
 		//
 			// echo $query;
@@ -167,7 +170,7 @@
 			}
 	}
 
-	// Not Working
+	// Working
 	function delete_message($post_info){
 		$user_id = $_SESSION['user_id'];
 		$message_id = $post_info['message_id'];
@@ -186,10 +189,6 @@
 		}
 	}
 
-		// Not Working
-	function delete_comment($post_info){
-
-	}
 
 
  	function return_error($string){
