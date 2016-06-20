@@ -1,11 +1,5 @@
 <?php
 session_start();
-// email *
-// first_name *
-// last_name *
-// password *
-// confirm_password *
-// birth_date
 ?>
 
 <!DOCTYPE html>

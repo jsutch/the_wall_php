@@ -2,25 +2,25 @@
 	session_start();
 
 	// set vars
-	// $_SESSION['success'] = '';
-	$passlength=strlen($_POST['password']);
+	if(isset($_POST['password'])) {
+			$passlength=strlen($_POST['password']);
+	}
 	$_SESSION['errors'] = array();
-	$_SESSION['first_name'] = '';
 
 	// include the mysql file
 	// SQL working
 	require_once('mysql.connection.php');
 
-
+	// Working
 	function extract_numbers($string)
 		{
 			preg_match_all('/([\d]+)/', $string, $match);
 			 array_push($numbers_in_name, "$match[0]");
 		}
-
+	// Validate and Route POSTs to correct functions
 	if(empty($_POST['origin']))
 		{
-			//error
+			// if hidden name doesn't equal "origin", then error
 			return_error("Don't tamper with the form");
 		} else if ($_POST['origin'] == 'registration') {
 	 		// do registration stuff
@@ -28,8 +28,17 @@
 		} else if ($_POST['origin'] == 'login') {
 			//do login stuff
 			login($_POST);
+		} else if  ($_POST['origin'] == 'message') {
+			post_message($_POST);
+		} else if  ($_POST['origin'] == 'comment') {
+			post_comment($_POST);
+		} else if  ($_POST['origin'] == 'delete_message') {
+			delete_message($_POST);
+		} else if  ($_POST['origin'] == 'delete_comment') {
+			delete_comment($_POST);
 		}
 
+	//Working
 	function register($post_info) {
 		// Working
 		// set variables 
@@ -70,7 +79,6 @@
 			$salt = bin2hex($pseudo);
 			$hashed_password = crypt($password, $salt);
 
-
 			$query = "INSERT INTO users (first_name, last_name, email, password, created_at, updated_at) VALUES ('{$first_name}', '{$last_name}', '{$email}', '{$hashed_password}', NOW(), NOW())";
 			// echo $query;
 			// die();
@@ -84,60 +92,104 @@
 		header('Location: the.wall.login-reg.php');
 	}
 
-
+	// Working
 	function login($post_info) {
 		// temp test
 		// var_dump($post_info);
 		// die();
-		$messages = [];
+		if(empty($post_info['email'])){
+		return_error("Email can't be empty");
+		header('Location: the.wall.login-reg.php');
+		die();
+		}
+		if(empty($post_info['password'])){
+		return_error("Password can't be empty");
+		header('Location: the.wall.login-reg.php');
+		die();
+		}
+		//$messages = [];
 		$email = escape_this_string($post_info['email']);
 		$password = escape_this_string($post_info['password']);
 		$user_query = "SELECT * from users WHERE email = '{$email}'";
 		$user = fetch_record($user_query);
 		if($user && (crypt($password, $user['password']) == $user['password'])){
 			// do stuff
+			// set session variables
 			$_SESSION['user_id'] = $user['id'];
-			$message_query="SELECT m.id, concat(u.first_name, ' ', u.last_name) as name, m.message, date_format(m.updated_at, '%M %D %Y'), m.updated_at as mdate FROM users u, messages m WHERE u.id = m.user_id ORDER BY m.updated_at DESC;";
-			$messages = fetch_record($message_query);
+			$_SESSION['first_name'] = $user['first_name'];
 			// Redirect to the.wall.index
 			header('Location: the.wall.index.php');
 		}
 	}
 
+	// Working
 	function post_message($post_info) {
-//
-	// var_dump($post_info);
-	// die();
-	// $message = $_POST['formMessage'];
-	// var_dump($_SESSION['user_id']);
-	if(empty($post_info['formMessage'])){
-		return_error("Message can't be empty");
-	}
-	$user_id = $_SESSION['user_id'];
-	$message = $post_info['formMessage'];
-	$query = "INSERT INTO messages (user_id, message, created_at, updated_at) VALUES ('{$user_id}', '{$message}', NOW(), NOW())";
-	//
-		// echo $query;
-		if(isset($_SESSION['user_id'])){
-			$post_id = run_mysql_query($query);
-			$_SESSION['post_id'] = $post_id;
-		// 
-		// TOGGLE ON/OFF
+		//
+		if(empty($post_info['formMessage'])){
+			return_error("Message can't be empty");
+			header('Location: the.wall.index.php');
+		} else {
+			// Do message stuff
+			//$message = $_POST['formMessage'];
+			$message = $post_info['formMessage'];
+			$user_id = $_SESSION['user_id'];
+			$query = "INSERT INTO messages (user_id, message, created_at, updated_at) VALUES ('{$user_id}', '{$message}', NOW(), NOW())";
+			if(isset($_SESSION['user_id'])){
+				$post_id = run_mysql_query($query);
+				$_SESSION['post_id'] = $post_id;
+			}
 		header('Location: the.wall.index.php');
 		}
 	}
 
-
-
-	if(empty($_SESSION['first_name']))
-		{
-			$user_id = $_SESSION['user_id'];
-			$query = "SELECT first_name FROM users WHERE id = '$user_id'";
-			//set first name
-			$user = fetch_record($query);
-			echo $user;
-			$_SESSION['first_name'] = $user['first_name'];
+	// Working
+	function post_comment($post_info) {
+//
+	// var_dump($post_info);
+	// die();
+	// $message = $_POST['formMessage'];
+		if(empty($post_info['formComment'])){
+			return_error("Comment can't be empty");
 		}
+		$user_id = $_SESSION['user_id'];
+		$message_id = $post_info['message_id'];
+		$comment = $post_info['formComment'];
+		$query = "INSERT INTO comments (user_id, comment, message_id, created_at, updated_at) VALUES ('{$user_id}', '{$comment}', '{$message_id}', NOW(), NOW());";
+		//
+			// echo $query;
+			if(isset($_SESSION['user_id'])){
+				$comment_id = run_mysql_query($query);
+				$_SESSION['comment_id'] = $comment_id;
+			// 
+			// TOGGLE ON/OFF
+			// var_dump($_SESSION);
+			header('Location: the.wall.index.php');
+			}
+	}
+
+	// Not Working
+	function delete_message($post_info){
+		$user_id = $_SESSION['user_id'];
+		$message_id = $post_info['message_id'];
+		$message_query = "SELECT * FROM messages WHERE id = '{$message_id}'";
+		$messagedata = fetch_record($message_query);
+		// validate that user id is message id
+		if($messagedata['user_id'] == $_SESSION['user_id']) {
+			// allow the post to be deleted
+			$delete_query = "DELETE FROM messages WHERE id  = '{$message_id}'";
+			$deleted_id = run_mysql_query($delete_query);
+			$_SESSION['deleted_message_id'] = $deleted_id;
+			header('Location: the.wall.index.php');
+		} else {
+			return_error("This isn't your post.");
+			header('Location: the.wall.index.php');
+		}
+	}
+
+		// Not Working
+	function delete_comment($post_info){
+
+	}
 
 
  	function return_error($string){
@@ -146,5 +198,5 @@
  	}
  
 
-var_dump($_SESSION);
+//var_dump($_SESSION);
 ?>
